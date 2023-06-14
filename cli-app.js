@@ -23,7 +23,7 @@ function saveBillToFile(bill) {
 
     fs.writeFile(fileName, JSON.stringify(bills, null, 2), (err) => {
       if (err) throw err;
-      console.log("Bill saved!");
+      console.log("Bill saved sucessfully!");
     });
   });
 }
